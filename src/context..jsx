@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect, useCallback } from "react";
 
-const URL = "https://openlibrary.org/search.json?title=";  // Fixed HTTP → HTTPS
+const URL = "https://openlibrary.org/search.json?title="; 
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
